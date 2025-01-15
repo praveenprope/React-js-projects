@@ -187,7 +187,6 @@
             .grid-container {
                 grid-template-columns: repeat(4, 1fr);
                 gap: 15px;
-
             }
 
             .card {
@@ -219,7 +218,7 @@
 <body>
 
     <header>
-        <div class="logo">JS Projects <Span style="color: red;">Hard</Span></div>
+        <div class="logo">React <span style="color: rgb(0, 81, 255);">Project</span></div>
         <div id="totalP"></div>
         <div class="hamburger" id="hamburger">&#9776;</div>
         <nav class="nav-links" id="navLinks">
@@ -233,22 +232,16 @@
     <div class="grid-container" id="grid-container">
         <div id="darkMode" class="card">🌙 Dark Mode</div>
         <div id="easyProject" class="card">
-             <a href="https://praveenprope.github.io/starter-js-projects/">😊 Easy Project</a>
-          </div>
-          <div id="hardProject" class="card">
-             <a href="https://praveenprope.github.io/mid-js-Project/">😌 Mid Project</a>
-          </div>
-          
-        
-        
-        
+            <a href="https://praveenprope.github.io/starter-js-projects/">😊 Easy Project</a>
+        </div>
+        <div id="hardProject" class="card">
+            <a href="https://praveenprope.github.io/mid-js-Project/">😌 Mid Project</a>
+        </div>
     </div>
 
     <script>
         // Array of projects
-        const projects = [
-           
-        ];
+        const projects = [];
 
         // Get the grid container and total projects element
         const gridContainer = document.getElementById('grid-container');
@@ -319,9 +312,6 @@
         hamburger.addEventListener('click', () => {
             navLinks.classList.toggle('active');
         });
-
-
-
     </script>
 
 </body>
